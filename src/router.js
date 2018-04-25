@@ -16,6 +16,7 @@ export default class Routers extends Component{
             <Scene
                 key="splash"            
                 component={Splash}
+                initial                
                 />
               <Scene
                 key="login"
@@ -35,7 +36,6 @@ export default class Routers extends Component{
               <Scene key="home"
                 component={Home}
                 title="Home"
-                initial                
                 />
               <Scene
                 key="signup"
